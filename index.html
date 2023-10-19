@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>MathType Generic Demo</title>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <!-- MathType integration script -->
+        <script src="https://www.wiris.net/demo/plugins/generic/wirisplugin-generic.js"></script>
+        <!-- MathType display engine script -->
+        <script src="https://www.wiris.net/demo/plugins/app/WIRISplugins.js?viewer=image"></script>
+        <link rel="stylesheet" href="./src/static/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>MathType Generic Demo</h1>
+        </header>
+        <main>
+            <h2>Generic HTML + JS text editor</h2>
+            <div id="editor">
+                <div id="toolbar"></div>
+                <div id="editable" contenteditable="true"></div>
+            </div>
+            <h2>Document loading MathType form</h2>
+            <div id="actions">
+                <button id="btn_update">UPDATE</button>
+            </div>
+            <div id="document"></div>
+        </main>
+        <script src="./src/app.js"></script>
+    </body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "name": "mathtype-generic-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A simple HTML site integrating WIRIS MathType in a Generic HTML + JS text editor.",
+  "author": "WIRIS Team (https://www.wiris.com)",
+  "license": "MIT"
+}
